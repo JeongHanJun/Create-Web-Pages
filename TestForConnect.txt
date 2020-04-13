@@ -1,15 +1,17 @@
 Test for connection
-���ƾƾƾƾ�
-ȭ��Ƽ������
+으아아아아아
+화이티이이잉
 
-���鿡 �ø��� ���� ���� ��Ŭ���ϰ�
-git bash here	�ϰ�
-git bash �߸�
-git status	�ϰ�
-modified �Ȱ� ���鿡 �ø���������
-git add .	�ϰ�
-git commit -m " �޽��� ���� "	�ϰ�
-git push origin master	 �ϰ�
-�α����ϰ�
-���鰡�� ���ΰ�ħ�غ���
-modified �ȳ����� ���鿡 ���ε� �������Ŵ�
+깃헙에 올리고 싶은 폴더 우클릭하고
+git bash here	하고
+git bash 뜨면
+git status	하고
+modified 된거 깃헙에 올리고싶으면
+git add .	하고
+git commit -m " 메시지 내용 "	하고
+git push origin master	 하고
+로그인하고
+깃헙가서 새로고침해보면
+modified 된내용이 깃헙에 업로드 되있을거당
+
+이거 관련 참고 유튜브는 [Github] 바로 사용하는 초간단 GITHUB(깃허브) 사용법
