@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout05</title>
+    <style>
+        * {margin: 0 ; padding: 0;}
+        #wrap { color: #fff; font-size: 30px; text-align: center; text-transform: lowercase;}
+        #header-wrap {width: 100%; height: 100px; background-color: #8d6e63; }
+        #banner-wrap {width: 100%; height: 300px; background-color: floralwhite }
+        #content-wrap {width: 100%;height: 500px; background-color: antiquewhite; }
+        #footer-wrap {width: 100%; height: 100px; background-color: beige;}
+        .header-container { width: 1000px; height: 100px; margin: 0 auto ; background-color: aqua;}
+        .banner-container { width: 1000px; height: 300px; margin: 0 auto ; line-height: 50px; background-color: aquamarine;}
+        .content-container{ width: 1000px; height: 500px; margin: 0 auto ; line-height: 50px; background-color: blue;}
+        .footer-container { width: 1000px; height: 200px; margin: 0 auto ; line-height: 50px; background-color: blueviolet;}
+    </style>
+</head>
+<body>
+       <div id = "wrap">
+           <div id = "header-wrap">
+               <div class = "header-container">header<br>전체배경과</div>
+           </div>
+           <div id = "banner-wrap">
+               <div class="banner-container">banner<br>가운데 배경이<br>들어간 구조<br> margin: 0 auto; 이 부분이 <br> 글자가 써있는 가운데 배경을 가운데로 auto setting </div>
+           </div>
+           <div id = "content-wrap">
+               <div class="content-container">content<br> line height 는 줄과 줄사이의 간격<br> lh 원하는 크기 px tab<br>지금 width값을 100%로 했는데<br> px단위로 하는게 아니라 %단위로 하느거기 때문에<br>굳이 쓰지 않아도 된다.<br>당연히 px단위이면 숫자를 적어야한다 ex) width: 900px;<br> 클래스간 상속관계에서 자식이 height값이 있으면 <br> 부모가 같은 height값을 가지려면 height값 안써도 된다.  </div>
+           </div>
+           <div id = "footer-wrap">
+               <div class="footer-container">즉 이 코드에서 header, banner, content, footer 4개 모두<br>wrap > container 상속관계 클래스이므로<br> container만 height값 적어도 상관없다.</div>
+           </div>
+       </div>
+    
+</body>
+</html>
